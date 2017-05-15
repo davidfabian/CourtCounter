@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void displayA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
-        scoreView.setText("" + score);
+        scoreView.setText(String.valueOf(score));
     }
 
     public void displayB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
-        scoreView.setText("" + score);
+        scoreView.setText(String.valueOf(score));
     }
 
     public void AddThreeA(View view) {
