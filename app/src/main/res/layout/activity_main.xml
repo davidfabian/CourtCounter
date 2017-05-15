@@ -41,18 +41,24 @@
                 android:id="@+id/team_a_3_point"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddThreeA"
                 android:text="+3 points" />
 
             <Button
                 android:id="@+id/team_a_2_point"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddTwoA"
                 android:text="+2 points" />
 
             <Button
                 android:id="@+id/team_a_1_point"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddOneA"
                 android:text="free throw" />
         </LinearLayout>
 
@@ -84,18 +90,24 @@
                 android:id="@+id/team_b_3_point"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddThreeB"
                 android:text="+3 points" />
 
             <Button
                 android:id="@+id/team_b_2_point"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddTwoB"
                 android:text="+2 points" />
 
             <Button
                 android:id="@+id/team_b_1_point"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddOneB"
                 android:text="free throw" />
         </LinearLayout>
     </LinearLayout>
@@ -106,6 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:onClick="ResetAll"
         android:text="RESET"
         android:textAlignment="center"
         android:textAllCaps="true"
